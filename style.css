@@ -1,0 +1,35 @@
+.console-kicker {
+  color: #67e8f9;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  border-left: 3px solid #22d3ee;
+  padding-left: 0.75rem;
+  margin-bottom: 0.7rem;
+}
+[data-testid="stAppViewContainer"] {
+  background: radial-gradient(ellipse at 95% 0%, #123047 0%, transparent 45%), #07111f;
+}
+[data-testid="stHeader"] { background: #07111f; }
+[data-testid="stSidebar"] { background: #0b192b; border-right: 1px solid #263c52; }
+[data-testid="stMainBlockContainer"] { max-width: 1500px; padding-top: 2.7rem; }
+h1 { font-size: clamp(1.8rem, 3vw, 2.8rem) !important; letter-spacing: -0.035em; }
+h2, h3 { letter-spacing: -0.02em; }
+[data-testid="stCaptionContainer"] { color: #a7b9ce; opacity: 1; }
+[data-testid="stCaptionContainer"] p { color: #b4c6dc; opacity: 1; }
+[data-testid="stMetric"] { background: #0d1d30; border: 1px solid #294158; border-radius: 8px; padding: 1rem; }
+[data-testid="stMetricValue"] { font-variant-numeric: tabular-nums; color: #e7f0fb; }
+[data-testid="stMetricLabel"] { color: #a7b9ce; }
+[data-baseweb="tab-list"] { gap: 1rem; border-bottom: 1px solid #294158; }
+[data-baseweb="tab"] { font-weight: 600; }
+[data-testid="stButton"] button, [data-testid="stDownloadButton"] button { border-radius: 6px; font-weight: 600; }
+[data-testid="stBaseButton-primary"]:not(:disabled), [data-testid="stBaseButton-primary"]:not(:disabled) p { color: #07111f !important; }
+[data-testid="stBaseButton-primary"]:disabled, [data-testid="stBaseButton-primary"]:disabled p { color: #a7b9ce !important; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #67e8f9 !important; outline-offset: 3px; }
+@media (max-width: 640px) {
+  [data-testid="stMainBlockContainer"] { padding: 1.5rem 1rem; }
+  .console-kicker { font-size: 0.63rem; letter-spacing: 0.08em; }
+  [data-baseweb="tab-list"] { gap: 0.35rem; }
+  [data-baseweb="tab"] { font-size: 0.8rem; padding-left: 0.3rem; padding-right: 0.3rem; }
+}

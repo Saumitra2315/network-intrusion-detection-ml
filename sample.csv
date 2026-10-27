@@ -1,0 +1,6 @@
+dur,proto,service,state,spkts,dpkts,sbytes,dbytes,rate,sttl,dttl,sload,dload,sloss,dloss,sinpkt,dinpkt,sjit,djit,swin,stcpb,dtcpb,dwin,tcprtt,synack,ackdat,smean,dmean,trans_depth,response_body_len,ct_srv_src,ct_state_ttl,ct_dst_ltm,ct_src_dport_ltm,ct_dst_sport_ltm,ct_dst_src_ltm,is_ftp_login,ct_ftp_cmd,ct_flw_http_mthd,ct_src_ltm,ct_srv_dst,is_sm_ips_ports
+0.05,tcp,http,FIN,10,8,1200,4000,360,64,64,192000,640000,0,0,5,6,0,0,255,0,0,255,0.01,0.004,0.006,120,500,0,0,1,0,1,1,1,1,0,0,0,1,1,0
+1e-05,udp,-,INT,2,0,400,0,100000,254,0,192000,640000,0,0,5,6,0,0,255,0,0,255,0.01,0.004,0.006,120,500,0,0,80,2,1,1,1,1,0,0,0,1,1,0
+4.5,tcp,ssh,FIN,40,35,8000,10000,16.67,64,64,192000,640000,0,0,5,6,0,0,255,0,0,255,0.01,0.004,0.006,120,500,0,0,1,0,1,1,1,1,0,0,0,1,1,0
+0.001,icmp,-,INT,2,0,100,0,360,254,0,192000,640000,0,0,5,6,0,0,255,0,0,255,0.01,0.004,0.006,120,500,0,0,1,0,60,1,1,1,0,0,0,1,1,0
+0.015,udp,dns,FIN,2,2,144,256,200,64,64,192000,640000,0,0,5,6,0,0,255,0,0,255,0.01,0.004,0.006,120,500,0,0,1,0,1,1,1,1,0,0,0,1,1,0
